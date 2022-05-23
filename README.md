@@ -1,6 +1,8 @@
-# Tronex SAS
+# Proyecto ScaleApp Tronex SAS - DS4A
 ---
-+ Contacto: Johny Vallejo Sánchez (johnyvallejo@tronex.com), Andrés Franco Correa (afranco@tronex.com)
+### Contacto 
+  + Johny Vallejo Sánchez (johnyvallejo@tronex.com)
+  + Andrés Franco Correa (afranco@tronex.com)
 
 ---
 
@@ -36,7 +38,3 @@ Tabla con información transaccional de los clientes a nivel de cliente-factura/
 + Fecha venta: fecha de la venta (DATETIME)
 + Venta cantidad: Número de unidades vendidas (FLOAT)
 + Venta pesos: Venta en pesos sin IVA del producto (FLOAT)
-
-
-
-
