@@ -10,7 +10,7 @@
 
 A continuación se detallan las tablas del conjunto de datos.
 
-### 1. Customers
+### 1. `Customers`
 
 Tabla con información de los clientes.
 
@@ -26,7 +26,7 @@ Tabla con información de los clientes.
 
 Esas serían las columnas reelevantes para el reto propuesto, las otras se pueden omitir.
 
-### 2. sales2018
+### 2. `sales2018`
 
 Tabla con información transaccional de los clientes a nivel de cliente-factura/sku desde el 2018.
 
