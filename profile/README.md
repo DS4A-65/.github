@@ -6,7 +6,7 @@
 
 ---
 
-## Tablas
+## Fuentes de datos
 
 A continuación se detallan las tablas del conjunto de datos.
 
