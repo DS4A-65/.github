@@ -38,3 +38,24 @@ Tabla con información transaccional de los clientes a nivel de cliente-factura/
 + Fecha venta: fecha de la venta (DATETIME)
 + Venta cantidad: Número de unidades vendidas (FLOAT)
 + Venta pesos: Venta en pesos sin IVA del producto (FLOAT)
+
+---
+
+## Población de control
+
+La información de la población de control está contenida en la información transaccional aplicando las siguientes reglas y filtros sobre la misma:
+
+1. Filtrar por los campos `Centro_Costos == "02"`, `Feha_Factura == "2022-03-01` y `Referencia` que empiecen con `LY`, e.g.
+```json
+{
+  "CUSTRUTEROID" : "920190206013554",
+  "Factura" : "HHBO0519419",
+  "Fecha_Factura" : "2022-05-20T05:00:00.000Z",
+  "Referencia" : "LYGUANT8AMX2",
+  "Cantidad_Original" : 1.000000000000,
+  "Monto_Venta_Pesos_Linea" : 2298.800000000000,
+  "Centro_Costos" : "02"
+}
+```
+3. El conjunto de datos filtrado contiene a los clientes *adoptantes*, identificados con `CUSTRUTEROID`, que compraron la nueva categoría.
+4. La *población de control* serían los clientes *adoptantes* que están en el histórico transaccional (puede ser que algunos de los adoptantes no tengan un histórico transaccional) y tienen un comportamiento de compra de productos del portafolio de Tronex.
