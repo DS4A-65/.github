@@ -45,7 +45,7 @@ Tabla con información transaccional de los clientes a nivel de cliente-factura/
 
 La información de la población de control está contenida en la información transaccional aplicando las siguientes reglas y filtros sobre la misma:
 
-1. Filtrar por los campos `Centro_Costos == "02"`, `Feha_Factura == "2022-03-01` y `Referencia` que empiecen con `LY`, e.g.
+1. Filtrar por los campos `Centro_Costos == "02"`, `Feha_Factura == "2022-02-28` y `Referencia` que empiecen con `LY`, e.g.
 ```json
 {
   "CUSTRUTEROID" : "920190206013554",
